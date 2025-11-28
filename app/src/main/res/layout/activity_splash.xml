@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layoutDirection="ltr"
+    android:background="@drawable/bg_music_splash"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".views.Splash_activity">
+
+    <LinearLayout
+        android:id="@+id/container"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imageView"
+            app:srcCompat="@drawable/logomusic"
+            android:layout_width="350dp"
+            android:layout_height="350dp"/>
+
+        <TextView
+            android:id="@+id/textView"
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            android:text="WELCOME TO MUSIC PLAYER"
+            android:layout_marginTop="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
